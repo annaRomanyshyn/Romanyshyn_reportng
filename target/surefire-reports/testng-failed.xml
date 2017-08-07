@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="testlistener.MyListener"/>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+  </listeners>
+  <test name="TestGmailPositive(failed)">
+    <classes>
+      <class name="com.epam.testgmail.TestGmail">
+        <methods>
+          <include name="testGmail" invocation-numbers="1"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.epam.testgmail.TestGmail -->
+    </classes>
+  </test> <!-- TestGmailPositive(failed) -->
+  <test name="TestGmailNagative(failed)">
+    <classes>
+      <class name="com.epam.testgmail.TestGmailNegative">
+        <methods>
+          <include name="testLogin" invocation-numbers="0 1"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.epam.testgmail.TestGmailNegative -->
+    </classes>
+  </test> <!-- TestGmailNagative(failed) -->
+</suite> <!-- Failed suite [Suite] -->

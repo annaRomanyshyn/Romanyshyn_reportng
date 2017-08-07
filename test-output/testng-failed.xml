@@ -9,7 +9,7 @@
     <classes>
       <class name="com.epam.testgmail.TestGmail">
         <methods>
-          <include name="testGmail" invocation-numbers="1 0"/>
+          <include name="testGmail" invocation-numbers="0 1"/>
           <include name="closeBrowser"/>
         </methods>
       </class> <!-- com.epam.testgmail.TestGmail -->
