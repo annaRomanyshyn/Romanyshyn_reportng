@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="none">
+<listeners>
+    <listener class-name="testlistener.MyListener" />
+      <listener class-name="org.uncommons.reportng.HTMLReporter" />
+  </listeners>
+  <test name="TestGmailPositive">
+    <classes>
+      <class name="com.epam.testgmail.TestGmail"/>   
+    </classes>
+  </test> <!-- Test -->
+  <test name="TestGmailNagative">
+    <classes>
+      <class name="com.epam.testgmail.TestGmailNegative"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

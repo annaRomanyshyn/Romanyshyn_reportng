@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Users>
+	<User>
+		<login>olegvovkanych@gmail.com</login>
+		<password>sittervovkanych</password>
+	</User>
+	<User>
+		<login>autootester@gmail.com</login>
+		<password>autotest</password>
+	</User>
+	<User>
+		<login>autootester@gmail.com</login>
+		<password>autotest</password>
+	</User>
+	<User>
+		<login>vladarchenko@gmail.com</login>
+		<password>sittermarchenko</password>
+	</User>
+	<User>
+		<login>romslavinsky@gmail.com</login>
+		<password>sitterslavinsky</password>
+	</User>
+</Users>

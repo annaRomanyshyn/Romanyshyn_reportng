@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Emails>
+	<Email>
+		<emailTo>qweail.com</emailTo>
+		<subject>I am a subject</subject>
+		<message>I am message</message>
+	</Email>
+	<Email>
+		<emailTo>anetswan@gmail.com</emailTo>
+		<subject>I am a subject</subject>
+		<message>I am message</message>
+	</Email>
+</Emails>
