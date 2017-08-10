@@ -70,7 +70,7 @@
 						<!-- Setting ReportNG listeners -->
 						<property>
 							<name>listener</name>
-							<value>org.uncommons.reportng.HTMLReporter,org.uncommons.reportng.JUnitXMLReporter, com.epam.testgmail.MyListener</value>
+							<value>org.uncommons.reportng.HTMLReporter,org.uncommons.reportng.JUnitXMLReporter,testlistener.MyListener</value>
 						</property>
 					</properties>
 					<suiteXmlFiles>
